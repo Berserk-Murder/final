@@ -1,0 +1,37 @@
+.add1 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+}
+
+.BC {
+    background: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.add {
+    margin: 20px;
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.main {
+    background: black;
+}
+
+.cdH {
+    color: rgb(32, 31, 31);
+}
+
+.btnAD {
+    background-color: #0be4ec;
+    border: black solid 1px;
+    border-radius: 10px;
+    padding: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}

@@ -1,0 +1,117 @@
+/* styles.css */
+.card {
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card-text {
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.card-text a {
+  text-decoration: none;
+  color: #007bff;
+}
+
+.card-footer {
+  background-color: #f8f9fa;
+  padding: 10px;
+  text-align: right;
+}
+
+.btn {
+  margin-top: 10px;
+}
+
+/* Estilizando os links */
+.card-text a {
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.2s;
+}
+
+.card-text a:hover {
+  color: #0056b3;
+}
+
+/* Estilizando o endereço */
+.card-text.address {
+  font-size: 14px;
+  color: #888;
+}
+
+.card-text.address i {
+  color: #555;
+}
+
+/* painel confirmar exclusão */
+
+.delete {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.delete-content {
+  background-color: white;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.delete-content p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.delete-content button {
+  margin: 0 10px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-content button:first-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+.delete-content button:last-child {
+  background-color: #ccc;
+  color: black;
+}
+
+.add{
+  width: 100px;
+  height: 100px;
+}
+
+.add i{
+  font-size: 50px;
+}
